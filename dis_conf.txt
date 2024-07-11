@@ -1,0 +1,4 @@
+v_dis_gft=1280 800 60
+virtual_dis=1280x800_60.00
+vnc_dis_size=1280x800
+main_dis_length=1366
