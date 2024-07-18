@@ -16,10 +16,11 @@ sleep 1
 adb reverse tcp:5900 tcp:5900
 
 sleep 1
-# Egér és touchpad engedélyezése
-xinput --set-prop 10 "Device Enabled" 1
-xinput --set-prop 13 "Device Enabled" 1
+
+x11vnc -clip $vnc_dis_size+$main_dis_length+0 -nocursorshape
 
 sleep 1
-# VNC szerver indítása, a másodlagos kijelző küldése az egérkurzor megjelenítésével
-x11vnc -clip $vnc_dis_size+$main_dis_length+0 -xwarppointer
+
+./t2m-off.sh
+
+echo exiting
