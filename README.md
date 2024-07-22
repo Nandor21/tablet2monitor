@@ -20,14 +20,14 @@ Requirements: x11vnc, xrandr, adb (Android Debug Bridge), git
 
   Open the file named dis_conf.txt, which looks like this:
   
-     v_dis_gft=1280 800 60
+     v_dis_gft="1280 800 60"
      virtual_dis=1280x800_60.00
      vnc_dis_size=1280x800
      main_dis_length=1366
     
   The first three variables are for configuring the virtual display:
 
-     v_dis_gft=(virtual display width) (virtual display height) (refresh rate in Hz)
+     v_dis_gft="(virtual display width) (virtual display height) (refresh rate in Hz)"
      virtual_dis=(virtual display width)x(virtual display height)_(refresh rate)
      vnc_dis_size=(virtual display width)x(virtual display height)
 
