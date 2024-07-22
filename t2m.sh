@@ -21,6 +21,5 @@ x11vnc -clip $vnc_dis_size+$main_dis_length+0 -nocursorshape
 
 sleep 1
 
-./t2m-off.sh
 
 echo exiting
