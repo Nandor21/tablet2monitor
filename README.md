@@ -53,9 +53,10 @@ Requirements: x11vnc, xrandr, adb (Android Debug Bridge), git
 
      sudo chmod +x t2m.sh
      sudo chmod +x t2m-off.sh
-
+     sudo chmod +x t2mqup.sh
+  
  2.You can start t2m.sh to initiate the program and use t2m-off.sh to stop it.
 
 ### Note:
 - The second monitor should now show the real cursor.
-- If the background image appears split between screens, this is a minor bug and can be resolved.
+- use the "t2mqup.sh" if the vnc exits and you want contine the use
