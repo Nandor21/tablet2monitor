@@ -10,6 +10,10 @@ Requirements: x11vnc, xrandr, adb (Android Debug Bridge), git
   
     sudo apt update
     sudo apt install x11vnc xrandr adb git
+1.1 Arch and Arch based systems (Arch linux, Manjaro, Endeavur, etc)
+
+    sudo pacman -Syu
+    sudo pacman -S x11vnc xrandr android-tools git
 
 2.Download
   
